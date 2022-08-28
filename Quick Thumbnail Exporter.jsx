@@ -1,4 +1,4 @@
-﻿var folder = Folder("G:/Stock Utilities/NT Productions/Ink/Raw Footage");
+﻿var folder = Folder("C:/Users/Natel/Downloads/Film Essentials");
 main(folder);
 
 function main(folder) {
@@ -31,7 +31,7 @@ app.project.renderQueue.render();
 files = folder.getFiles();
 for(var i = 0; i < files.length; i++) {
     if(files[i].fsName.indexOf(".jpg") != -1) {
-    files[i].rename(files[i].name.replace(".MOV", "").replace("_00000", ""));
+    files[i].rename(files[i].name.replace(".MOV", "").replace("_00000", "").replace(".mp4", ""));
     }
     }
 //app.endUndoGroup();
