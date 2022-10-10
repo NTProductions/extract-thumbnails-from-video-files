@@ -1,4 +1,4 @@
-﻿var folder = Folder("C:/Users/Natel/Downloads/tont 8、28/tont 8、28/声音audio/音效\居家和工作");
+﻿var folder = Folder("C:/Users/Natel/Desktop/640 LUTs");
 main(folder);
 
 function main(folder) {
