@@ -1,4 +1,4 @@
-﻿var folder = Folder("C:/Users/Natel/Desktop/640 LUTs");
+﻿var folder = Folder("C:/Users/Natel/Downloads/MULTIX/07. IMAGE WIPE");
 main(folder);
 
 function main(folder) {
@@ -9,6 +9,7 @@ var items = [];
 var comp, layer, rqItem, module;
 for(var i = 0; i < files.length; i++) {
     if(files[i].name.toLowerCase().indexOf(".mp4") != -1) {
+        $.writeln(files[i].name);
     items.push(app.project.importFile(new ImportOptions(files[i])));
     }
     }
