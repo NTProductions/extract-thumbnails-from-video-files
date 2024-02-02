@@ -1,4 +1,4 @@
-﻿var rootFolder = Folder("C:/Users/Natel/Downloads/CINEPUNCH for DaVinci Resolve/CINEPUNCH for DaVinci Resolve/CINEPUNCH.dra/MediaFiles");
+﻿var rootFolder = Folder("C:/Users/Natel/Desktop/VFX Overlays");
 
 var styleFolders = rootFolder.getFiles();
 var subFolders = [];
