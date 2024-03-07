@@ -1,4 +1,4 @@
-﻿var rootFolder = Folder("C:/Users/Natel/Desktop/VFX Overlays");
+﻿var rootFolder = Folder("C:/Users/Natel/Downloads/Premiere Pro FX update 5.0/Premiere Pro FX update 5.0/NEW SECTIONS/Trailer Sounds (NEW SECTION)");
 
 var styleFolders = rootFolder.getFiles();
 var subFolders = [];
@@ -6,11 +6,12 @@ var subFolders = [];
 for(var f = 0; f < styleFolders.length; f++) {
     $.writeln(styleFolders[f].fsName);
     $.writeln("f = " + f.toString() + "/"+(styleFolders.length-1).toString());
-    subFolders = styleFolders[f].getFiles();
+    main(styleFolders[f]);
+    //subFolders = styleFolders[f].getFiles();
 for(var s = 0; s < subFolders.length; s++) {
     $.writeln(subFolders[s].fsName);
     $.writeln("s = " + s.toString() + "/"+(subFolders.length-1).toString());
-    main(subFolders[s]);
+    //main(subFolders[s]);
 }
 }
 
