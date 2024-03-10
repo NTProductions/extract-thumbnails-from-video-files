@@ -1,4 +1,4 @@
-﻿var rootFolder = Folder("C:/Users/Natel/Downloads/Premiere Pro FX update 5.0/Premiere Pro FX update 5.0/NEW SECTIONS/Trailer Sounds (NEW SECTION)");
+﻿var rootFolder = Folder("C:/Users/Natel/Downloads/Premiere Pro FX Fixes/Premiere Pro FX Fixes/Music Scores");
 
 var styleFolders = rootFolder.getFiles();
 var subFolders = [];
